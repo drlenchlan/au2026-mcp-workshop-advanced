@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "aps": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["--env-file-if-exists=.env", "index.js"]
+    }
+  }
+}
